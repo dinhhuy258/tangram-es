@@ -1030,6 +1030,7 @@ public class MapController implements Renderer {
                 });
             }
         };
+        touchInput.setMapChangeListener(mapChangeListener);
     }
 
     //Convenience package private member functions
